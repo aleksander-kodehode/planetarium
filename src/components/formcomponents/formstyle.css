@@ -16,6 +16,7 @@
     font-size: 23px;
     padding: 20px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    position: relative;
 }
 .marginspace{
      margin-bottom: 30px;
@@ -47,4 +48,43 @@
 #container h1{
     text-align: center;
     margin: 50px auto 70px auto;
+}
+
+.error-msg{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  height: fit-content;
+  width: fit-content;
+  padding: 25px;
+}
+.error-msg h4{
+    color: red;
+    font-size: 15px;
+}
+.error-msg p{
+    color: red;
+    font-size: 15px;
+}
+.error-btn{
+   
+}
+.green-border{
+    border:5px solid green;
+}
+.succes-btn{
+    color: green;
+    font-size: 15px;
+}
+
+
+.succes-btn h4{
+    color: green;
+    font-size: 15px;
 }
