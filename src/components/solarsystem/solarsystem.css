@@ -10,7 +10,8 @@
   width: 1200px;
   height: 1200px;
   margin: auto;
-  overflow: hidden;
+  overflow: hidden; 
+  transform: scale(.8) translateY(-200px) translateX(-200px);
 }
 
 /* Some positioning rules that are common for all objects */
@@ -193,7 +194,7 @@ and planet size. And colors :) */
     box-shadow: 0 0 14px #424141;
     
   }
-  
+ 
   .uranus-orbit,
   .uranus-spin {
     width: 1000px;
@@ -210,8 +211,8 @@ and planet size. And colors :) */
     width: 32px;
     background-color: rgb(35, 92, 179);
     box-shadow: 0 0 14px #41ebe2;
-    
   }
+ 
   
   .neptune-orbit,
   .neptune-spin {
@@ -233,6 +234,7 @@ and planet size. And colors :) */
 
 .earth-spin {
   animation: spin-right 36.5s linear infinite;
+  
 }
 .moon-spin {
   animation: spin-right 3s linear infinite;
@@ -247,17 +249,26 @@ and planet size. And colors :) */
   animation: spin-right 68.7s linear infinite;
 }
 .jupiter-spin {
-    animation: spin-right 68.7s linear infinite;
+    animation: spin-right 38.7s linear infinite;
   }
 
   .saturn-spin {
-    animation: spin-right 68.7s linear infinite;
+    animation: spin-right 48.7s linear infinite;
   }
 
   .uranus-spin {
-    animation: spin-right 68.7s linear infinite;
+    animation: spin-right 38.7s linear infinite;
   }
 
   .neptune-spin {
-    animation: spin-right 68.7s linear infinite;
+    animation: spin-right 18.7s linear infinite;
   }
+
+
+.name-link{
+  position: absolute;
+  top: 0;
+}
+.name-link p{
+    font-size: 20px;
+}
