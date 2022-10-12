@@ -1,6 +1,7 @@
 #maincontainer{
     width: 1300px;
-    height: max-content;
+    height: 400px;
+
 }
 
 
@@ -8,10 +9,10 @@
 .solar-system {
   position: relative;
   width: 1200px;
-  height: 600px;
+  height: 350px;
   margin: auto;
-  overflow: hidden; 
-  transform: scale(1)  translateX(-100px);
+  
+  transform: scaleY(.5)  translateX(-100px) translateY(100px);
 }
 
 /* Some positioning rules that are common for all objects */
@@ -271,4 +272,5 @@ and planet size. And colors :) */
 }
 .name-link p{
     font-size: 20px;
+   
 }
