@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./solarsystem.css";
 function SolarSystem() {
   return (
@@ -47,9 +48,11 @@ function SolarSystem() {
           <div id="uranus"></div>
         </div>
         <div className="orbit neptune-orbit"></div>
-        <div className="neptune-spin">
-          <div id="neptune"></div>
-        </div>
+        <Link to="/earth">
+          <div className="neptune-spin">
+            <div id="neptune"></div>
+          </div>
+        </Link>
       </div>
     </div>
   );

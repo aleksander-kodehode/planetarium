@@ -76,6 +76,7 @@ and planet size. And colors :) */
   margin-top: -5%;
   border-radius: 50%;
   box-shadow: 0 0 34px #3a4385;
+  z-index: 999;
 }
 
 /* Original value: 500px */
@@ -112,6 +113,7 @@ and planet size. And colors :) */
   width: 10.8%;
   background-color: #3498db;
   box-shadow: 0 0 34px #3a4385;
+  z-index: 999;
 }
 
 /* Original value: 370px */
@@ -129,6 +131,7 @@ and planet size. And colors :) */
   height: 8.9%;
   width: 8.9%;
   background-color: #a65e22;
+  z-index: 999;
   /* box-shadow: 0 0 34px #3a4385; */
 }
 
@@ -229,6 +232,7 @@ and planet size. And colors :) */
   height: 91.7%;
   margin-left: -45.83%;
   margin-top: -45.83%;
+  z-index: 1;
 }
 
 /* Spinning animations */
